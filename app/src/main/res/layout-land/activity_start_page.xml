@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fon3"
+        android:padding="16dp">
+        <LinearLayout
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/resultField"
+                android:layout_width="392dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Convert"
+                android:textStyle="italic"
+                android:textColor="#f44336"
+                android:textSize="50sp"
+                android:layout_marginLeft="250dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="500dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:id="@+id/currency"
+                android:layout_width="25dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:onClick="sendMessage"
+                android:src="@drawable/curr" />
+
+            <ImageButton
+                android:id="@+id/weight"
+                android:layout_width="25dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:onClick="sendMessage"
+                android:src="@drawable/weight" />
+
+            <ImageButton
+                android:id="@+id/lenth"
+                android:layout_width="25dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:onClick="sendMessage"
+                android:src="@drawable/len" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

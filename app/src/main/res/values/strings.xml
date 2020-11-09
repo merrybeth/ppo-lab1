@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Converter</string>
+
+
+    <string-array name="currency">
+        <item>USD</item>
+        <item>BYN</item>
+        <item>EUR</item>
+    </string-array>
+    <string-array name="weight">
+        <item>Kg</item>
+        <item>Gr</item>
+        <item>Tn</item>
+    </string-array>
+    <string-array name="len">
+        <item>Sm</item>
+        <item>Mtr</item>
+        <item>Km</item>
+    </string-array>
+
+
+    <string name="USDUSD">1</string>
+    <string name="USDBYN">2.57</string>
+    <string name="USDEUR">0.85</string>
+
+    <string name="BYNUSD">0.39</string>
+    <string name="BYNBYN">1</string>
+    <string name="BYNEUR">0.33</string>
+
+    <string name="EURUSD">1.18</string>
+    <string name="EURBYN">3.04</string>
+    <string name="EUREUR">1</string>
+
+
+    <string name="KgKg">1</string>
+    <string name="KgGr">1000</string>
+    <string name="KgTn">0.001</string>
+
+    <string name="GrKg">0.001</string>
+    <string name="GrGr">1</string>
+    <string name="GrTn">0.000001</string>
+
+    <string name="TnKg">1000</string>
+    <string name="TnGr">1000000</string>
+    <string name="TnTn">1</string>
+
+
+    <string name="SmSm">1</string>
+    <string name="SmMtr">0.01</string>
+    <string name="SmKm">0.00001</string>
+
+    <string name="MtrSm">100</string>
+    <string name="MtrMtr">1</string>
+    <string name="MtrKm">0.001</string>
+
+    <string name="KmSm">100000</string>
+    <string name="KmMtr">1000</string>
+    <string name="KmKm">1</string>
+
+</resources>
