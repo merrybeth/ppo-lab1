@@ -1,12 +1,5 @@
 apply plugin: 'com.android.application'
 
-static def getVersionNameArray() {
-//    def result = "git rev-list HEAD --count".execute().text.trim()
-  //  return result.toInteger()
-}
-
-def versionNameArray = getVersionNameArray()
-
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
